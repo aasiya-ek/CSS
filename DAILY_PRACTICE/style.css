@@ -1,0 +1,22 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: darkgreen;
+    background-color: chocolate;
+    /* font-weight: 500; */
+}
+
+#p1 {
+    color: cornflowerblue;
+    background-color: palevioletred;
+    /* font-style: oblique; */
+    font-size: 25px;
+}
+
+.p2 {
+    color: palevioletred;
+    background-color: brown;
+    font-style: italic;
+    font-weight: 900;
+}
