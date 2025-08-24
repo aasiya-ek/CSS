@@ -1,0 +1,30 @@
+ul li {
+    color: rgba(95, 12, 12);
+    letter-spacing: 5px;
+}
+
+span {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgba(95, 12, 12);
+    font-weight: lighter;
+}
+
+#p1 {
+    color: rgba(95, 12, 12);
+    font-size: 10px;
+}
+
+#p2 {
+    color: rgba(95, 12, 12);
+    font-style: italic;
+}
+
+a {
+    color: rgba(95, 12, 12);
+    text-decoration: none;
+    background-color: yellow;
+}
