@@ -138,9 +138,11 @@ body {
 .item h2 {
     font-size: 25px;
     text-align: center;
+    color: white;
 }
 
 .item li {
     font-size: 20px;
     margin-left: 70px;
+    color: white;
 }

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    text-align: start;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(74, 25, 74);
+    z-index: -1;
+}
+
+.card2 {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    font-size: 29px;
+    left: 380px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(49, 113, 92);
+    position: absolute;
+    z-index: -2;
+    text-shadow: -2px -2px 2px whitesmoke;
+}
+
+.card3 {
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(196, 62, 84);
+    z-index: -3;
+}
+
+.card4 {
+    position: absolute;
+    left: 520px;
+    top: 90px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(218, 194, 13);
+    z-index: -4;
+    text-align: start;
+    box-shadow: 0px 0px 3px 15px rgb(55, 51, 27);
+    /*  1st value is for horizontal
+        2nd value is for vertical
+        3rd value is for blur level
+        4th value is for spread 
+        5th is for color
+        -(minus) value for change direction
+        if we pass 0 0 value shadow will be from all sides
+    */
+}
