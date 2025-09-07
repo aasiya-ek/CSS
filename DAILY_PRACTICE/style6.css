@@ -58,19 +58,3 @@
     green 30%
   );
 }
-
-.card5 {
-    margin: 100px;
-    height: 200px;
-    width: 200px;
-    background-color: rgb(126, 27, 60);
-    transform: rotate(40deg);
-}
-
-.card6 {
-    margin: 100px;
-    height: 200px;
-    width: 200px;
-    background-color: rgb(65, 26, 83);
-    transform: skewY(40deg);
-}
