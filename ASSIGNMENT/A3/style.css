@@ -1,125 +1,139 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-style: italic;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url("./img.png");
-    background-size: cover;
+  background-image: url("./img.png");
+  background-size: cover;
 }
 
 .header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 180px;
-    width: 500px;
-    border: 10px solid rgb(157, 122, 122);
-    color: white;
-    border-radius: 20px;
-    text-align: center;
-    position: relative;
-    left: 35%;
-    box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
-    background-color: rgba(45, 23, 23, 0.815);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 180px;
+  width: 500px;
+  border: 10px solid rgb(157, 122, 122);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 35%;
+  box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
+  background-color: rgba(45, 23, 23, 0.815);
 }
 
 .header h1 {
-    margin-top: 40px;
-    font-size: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 2px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main-one {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 20px;
-
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px;
 }
 .m1 {
-    width: 250px;
-    height: 300px;
-    border: 8px solid rgb(157, 122, 122);
-    border-radius: 10px;
-    font-size: 30px;
-    text-align: center;
-    box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
-    color: white;
-    text-shadow: 5px 5px 2px rgb(101, 28, 40);
-    background-color: rgba(49, 35, 49, 0.762);   
+  width: 250px;
+  height: 300px;
+  border: 8px solid rgb(157, 122, 122);
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
+  color: white;
+  text-shadow: 5px 5px 2px rgb(101, 28, 40);
+  background-color: rgba(49, 35, 49, 0.762);
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-address, p {
-    margin-top: 30px;
-    padding: 10px;
+address,
+p {
+  padding: 10px;
 }
 
 #center {
-    height: 120px;
-    width: 450px;
-    border: 8px solid rgb(157, 122, 122);
-    box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
-    position: fixed;
-    left: 35%;
-    top: 60%;
-    border-radius: 10px;
-    text-align: center;
-    color: #e1dcd9;
-    background-color: #653245a9;
-    padding: 10px;
+  height: 120px;
+  width: 450px;
+  border: 8px solid rgb(157, 122, 122);
+  box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
+  position: fixed;
+  left: 35%;
+  top: 60%;
+  border-radius: 10px;
+  text-align: center;
+  color: #e1dcd9;
+  background-color: rgba(45, 23, 23, 0.815);
+  padding: 10px;
+  font-family: "Leckerli One", cursive;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 .main-two {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px;
 }
 
 .footer {
-    border: 5px solid rgb(157, 122, 122);
-    width: 60%;
-    margin-left: 20%;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    color: white;
+  border: 5px solid rgb(157, 122, 122);
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
 
-.footer h3{
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
+.footer h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .items {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .left-item {
-   width: 450px;
-   font-size: 25px;
-   text-align: center;
-    background-color: #392a3edc;
+  width: 450px;
+  font-size: 25px;
+  text-align: center;
+  background-color: #392a3edc;
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .right-item {
-    width: 450px;
-    font-size: 25px;
-    text-align: center;
-    background-color: #392a3edc;
+  width: 450px;
+  font-size: 25px;
+  text-align: center;
+  background-color: #392a3edc;
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .bottom-items {
-    margin-top: 50px;
-   font-size: 30px;
-   text-align: center;
-    background-color: #392a3edc;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #392a3edc;
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-
-   
