@@ -6,6 +6,8 @@
 body {
   background-image: url("./img.png");
   background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
 }
 
 .header {
@@ -62,9 +64,9 @@ p {
   width: 450px;
   border: 8px solid rgb(157, 122, 122);
   box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
-  position: fixed;
+  position: sticky;
   left: 35%;
-  top: 60%;
+  top: 10px;
   border-radius: 10px;
   text-align: center;
   color: #e1dcd9;
