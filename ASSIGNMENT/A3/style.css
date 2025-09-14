@@ -62,6 +62,10 @@ p {
   padding: 10px;
 }
 
+form {
+  font-size: 15px;
+}
+
 #center {
   height: 120px;
   width: 450px;
@@ -69,7 +73,7 @@ p {
   box-shadow: 10px 10px 5px 2px rgb(153, 95, 95);
   position: sticky;
   left: 35%;
-  top: 10%;
+  top: 20px;
   border-radius: 10px;
   text-align: center;
   color: #e1dcd9;

@@ -1,0 +1,55 @@
+.card {
+  background-color: palevioletred;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  transition-duration: 5s;
+  /* transition-delay: 2s; */
+}
+
+.card:hover {
+  background-color: rgb(93, 18, 78);
+  height: 300px;
+  width: 300px;
+  transform: rotate(30deg);
+  border-radius: 50%;
+}
+
+.card2 {
+  height: 200px;
+  width: 200px;
+  background-color: #212121;
+  margin: 100px;
+  animation-name: change;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  position: relative;
+}
+
+@keyframes change {
+  0% {
+    top: 0px;
+    left: 0px;
+    background-color: white;
+  }
+  25% {
+    top: 0px;
+    left: 200px;
+    background-color: rgb(150, 15, 15);
+  }
+  50% {
+    top: 200px;
+    left: 200px;
+    background-color: yellow
+  }
+  75% {
+    top: 200px;
+    left: 0px;
+    background-color: rgb(61, 72, 112);
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background-color: rgb(35, 49, 7);
+  }
+}
