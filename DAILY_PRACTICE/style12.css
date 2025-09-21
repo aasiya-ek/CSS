@@ -1,0 +1,45 @@
+/* div p{
+    background-color: orchid;
+} */
+div + h2 {
+    background-color: indianred;
+}
+
+/* div ~ p{
+    background-color: cadetblue;
+} */
+
+/* h2::after{ 
+    content: "Hello World";
+} */
+
+h2::before{
+    content: "Hello World";
+}
+
+div > p::first-line{
+    font-size: 40px;
+    color: seagreen;
+}
+
+h1::first-letter{
+    font-size: 80px;
+}
+
+::marker{
+    color: rgb(100, 0, 45);
+    font-size: 50px;
+}
+
+p:nth-child(even){
+    background-color: rgb(142, 105, 72);
+}
+
+#main{
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 50px;
+    background-color: purple;
+    box-sizing: border-box;
+}
