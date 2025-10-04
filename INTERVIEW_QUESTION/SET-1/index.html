@@ -112,4 +112,81 @@ It decides the spacing and alignment of flex items inside the container horizont
   <li>space-evenly → equal space everywhere</li>
 </ol>
   </p>
+  <h2>4. Difference between Absolute and Relative Position:</h2>
+  <h3>🔹 position: absolute</h3>
+  <ol>
+    <li>The element is positioned relative to the nearest positioned ancestor
+(ancestor with position: relative, absolute, or fixed).</li>
+    <li>If no ancestor is positioned, it’s relative to the html /body (the page itself).</li>
+    <li>The element is taken out of the normal flow, so it doesn’t leave space behind.</li>
+  </ol>
+  <h3>🔹 position: relative</h3>
+  <ol>
+    <li>The element is positioned relative to its normal position.</li>
+    <li>If we move it with top, left, right, or bottom, it shifts from where it would normally be, but the original space is still reserved.</li>
+    <li>Other elements still behave like the box is in its original place.</li>
+  </ol>
+  👉 In short:
+<p>Relative → stays in flow, moves a little from its original spot. <br>
+Absolute → leaves flow, sticks to ancestor or page.</p>
+<h2>5. Z-index</h2>
+<ol>
+  <li>z-index controls the stack order of elements (which one appears in front or behind).</li>
+  <li>Higher z-index value → element appears on top.</li>
+  <li>Lower z-index value → element goes behind.</li>
+</ol>
+<h3>Rules of Z-index :-</h3>
+<ul>
+  <li>Works only on positioned elements (position: relative, absolute, fixed, sticky).
+If position: static (default), z-index won’t apply.</li>
+  <li>Default value is auto (means it follows normal stacking order).</li>
+  <li>Elements with the same z-index follow the HTML order (later one appears on top).</li>
+</ul>
+<h2>6. Difference between Margin and Padding:-</h2>
+<h3>Margin:</h3>
+<ul>
+  <li>Margin = space outside an element’s border.</li>
+  <li>It creates space between the element and other elements.</li>
+  <li>Think of it as “pushing elements away."</li>
+</ul>
+<h3>Padding:</h3>
+<ul>
+  <li>Padding = space inside an element’s border, around its content.</li>
+  <li>It creates space between the content and the border.</li>
+  <li>Think of it as “pushing content inward.”</li>
+</ul>
+👉 In short:
+<p>Margin = outside spacing. <br>
+Padding = inside spacing.</p>
+<table border="2px" cellpadding="7px">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Margin</th>
+      <th>Padding</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Location</td>
+      <td>Outside border</td>
+      <td>Inside border</td>
+    </tr>
+    <tr>
+      <td>Affects</td>
+      <td>Distance between elements</td>
+      <td>Distance between content & border</td>
+    </tr>
+    <tr>
+      <td>Collapses</td>
+      <td>Yes, vertical margins can collapse</td>
+      <td>No, padding never collapses</td>
+    </tr>
+    <tr>
+      <td>Background color</td>
+      <td>Transparent (doesn’t affect margin area)</td>
+      <td>Takes element’s background color</td>
+    </tr>
+  </tbody>
+</table>
 </html>
