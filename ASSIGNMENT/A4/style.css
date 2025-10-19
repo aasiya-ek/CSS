@@ -1,0 +1,28 @@
+.heading h1{
+    height: 25px;
+    width: 1o0vw;
+    text-decoration: underline;
+    text-align: center;
+    background: linear-gradient(to right, red,green,yellow);
+    font-size: 20px;
+}
+
+.home {
+    height: 100px;
+    width: 70vw;
+    background-color: cyan;
+    border: 2px solid red;
+    border-radius: 20px;
+    
+}
+
+.center-card {
+    margin-top: 30px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+}
+
