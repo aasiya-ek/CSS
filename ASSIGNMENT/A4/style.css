@@ -1,6 +1,6 @@
 .heading h1{
     height: 25px;
-    width: 1o0vw;
+    width: 98vw;
     text-decoration: underline;
     text-align: center;
     background: linear-gradient(to right, red,green,yellow);
@@ -9,20 +9,44 @@
 
 .home {
     height: 100px;
-    width: 70vw;
+    width: 50vw;
     background-color: cyan;
     border: 2px solid red;
-    border-radius: 20px;
-    
+    border-radius: 20px; 
+    margin-left: 25%;
 }
 
-.center-card {
+#center-card {
     margin-top: 30px;
     background-color: aquamarine;
     border: 2px solid black;
     border-radius: 20px;
-    width: 100vw;
-    height: 300px;
+    width: 98vw;
+    height: 200px;
     display: flex;
 }
 
+.card1{
+    margin-left: 30px;
+    height: 100px;
+    width: 550px;
+    border: 2px solid green;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.performer {
+    height: 30px;
+    width: 98vw;
+    text-decoration: underline;
+    text-align: center;
+    background: linear-gradient(to right, red,yellow,red);
+}
+#student-card{
+    margin-top: 30px;
+    background: radial-gradient(ellipse,blue,aquamarine,green);
+    width: 98vw;
+    height: 200px;
+    display: flex;
+}
