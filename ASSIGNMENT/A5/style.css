@@ -1,26 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: sienna;
+    background-color: rgba(185, 187, 183, 0.77);
 }
 h1 {
     text-align: center;
-    margin-top: 20px;
 }
 .section-1{
     display: flex;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .box1 {
     height: 100px;
     width: 100px;
-    background-color: skyblue;
-    margin: 50px;
-    animation: changeshape 4s infinite ;
+    background-color: rgb(19, 58, 74);
+    margin: 30px;
+    animation: transform1 2s infinite ;
 }
 
-@keyframes changeshape {
+@keyframes transform1 {
     0% {
     transform: skew(20deg);
   }
@@ -35,6 +34,102 @@ h1 {
 .box2 {
     height: 100px;
     width: 100px;
-    background-color: palevioletred;
-    margin: 50px;
+    background-color: rgb(75, 18, 37);
+    margin: 30px;
+    animation: transform2 2s infinite ;
+}
+
+@keyframes transform2 {
+  0% {
+    transform: skewY(20deg);
+  }
+  50% {
+    transform: skewY(-20deg);
+  }
+  100% {
+    transform: skewY(20deg);
+  }
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 89, 102);
+    margin: 30px;
+    animation: transform3 2s infinite ;
+}
+
+@keyframes transform3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(105, 128, 89);
+    margin: 30px;
+    animation: scale1 2s infinite ;
+}
+
+@keyframes scale1 {
+  0% {
+    transform: scaleY(1.0);
+  }
+  50% {
+    transform: scaleY(0.5);
+  }
+  100%{
+    transform: scaleY(1.0);
+  }
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(46, 24, 19);
+    margin:30px;
+    animation: scale2 2s infinite ;
+}
+@keyframes scale2 {
+  0% {
+    transform:  scaleX(1.0);
+  }
+  50% {
+    transform: scaleX(0.5);
+  }
+  100%{
+    transform: scaleX(1.0);
+  }
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(55, 48, 73);
+    margin:30px;
+    animation: scale3 2s infinite ;
+}
+@keyframes scale3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+a{
+  font-size: 30px;
+  margin-left: 40%;
 }
