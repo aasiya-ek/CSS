@@ -1,6 +1,17 @@
 body{
-    background-color: rgb(167, 32, 68);
+    background-color: rgb(167, 127, 119);
+    margin-left: 45%;
 }
-h1{
-    text-align: center;
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(71, 29, 29);
+    margin: 10px;
+}
+
+#box1:hover{
+    transition: linear;
+    width: 250px;
+    transition: 3s;
 }
