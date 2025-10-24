@@ -1,20 +1,14 @@
 body{
     background-color: rgba(185, 187, 183, 0.77);
-}
-h1 {
-    text-align: center;
+    margin-left: 30%;
 }
 
-ol {
-  list-style-type: decimal;
-  list-style-position: inside;
-  font-weight: bold;
+h1 {
+  margin-left: 15%;
 }
 .section-1{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    gap: 50px;
 }
 
 .box1 {
@@ -22,8 +16,7 @@ ol {
     width: 100px;
     background-color: rgb(19, 58, 74);
     animation: transform1 2s infinite ;
-    margin: 30px;
-
+    margin: 20px;
 }
 
 @keyframes transform1 {
@@ -42,8 +35,8 @@ ol {
     height: 100px;
     width: 100px;
     background-color: rgb(75, 18, 37);
-    margin: 30px;
     animation: transform2 2s infinite ;
+    margin: 20px;
 }
 
 @keyframes transform2 {
@@ -62,8 +55,8 @@ ol {
     height: 100px;
     width: 100px;
     background-color: rgb(128, 89, 102);
-    margin: 30px;
     animation: transform3 2s infinite ;
+    margin: 20px;
 }
 
 @keyframes transform3 {
@@ -82,8 +75,8 @@ ol {
     height: 100px;
     width: 100px;
     background-color: rgb(105, 128, 89);
-    margin: 30px;
     animation: scale1 2s infinite ;
+    margin: 20px;
 }
 
 @keyframes scale1 {
@@ -102,8 +95,8 @@ ol {
     height: 100px;
     width: 100px;
     background-color: rgb(46, 24, 19);
-    margin:30px;
     animation: scale2 2s infinite ;
+    margin: 20px;
 }
 @keyframes scale2 {
   0% {
@@ -121,8 +114,8 @@ ol {
     height: 100px;
     width: 100px;
     background-color: rgb(55, 48, 73);
-    margin:30px;
     animation: scale3 2s infinite ;
+    margin: 20px;
 }
 @keyframes scale3 {
   0% {
@@ -138,5 +131,5 @@ ol {
 
 a{
   font-size: 30px;
-  margin-left: 40%;
+  margin-left: 12%;
 }
