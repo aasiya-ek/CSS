@@ -1,17 +1,30 @@
 body{
-    background-color: rgb(167, 127, 119);
-    margin-left: 45%;
+    background-color: #b27171;
+    margin-left: 42%;
 }
 
 .box{
     height: 100px;
     width: 100px;
-    background-color: rgb(71, 29, 29);
+    background-color: white;
     margin: 10px;
+    transition: 3s;
 }
 
 #box1:hover{
     transition: linear;
     width: 250px;
     transition: 3s;
+}
+
+#box2:hover {
+    transition: width 2s,height 4s;
+    height: 250px;
+    width: 250px;
+}
+
+#box3:hover{
+    transition: linear;
+    width: 250px;
+    transition: 1s;
 }
