@@ -1,135 +1,61 @@
 body{
-    background-color: rgba(107, 132, 80, 0.996);
-    margin-left: 30%;
+    background-color:orange;
+    
 }
-
-h1 {
-  margin-left: 15%;
+.text{
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
-.section-1{
-    display: flex;
-    gap: 50px;
-}
-
-.box1 {
-    height: 100px;
+.box {
     width: 100px;
-    background-color: rgb(19, 58, 74);
-    animation: transform1 2s infinite ;
-    margin: 20px;
+    margin: auto;
+}
+.number{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left:-20px;
+    bottom: -20px;;
+
 }
 
-@keyframes transform1 {
-    0% {
-    transform: skew(20deg);
-  }
-  50% {
-    transform: skew(-20deg);
-  }
-  100% {
-    transform: skewX(20deg);
-  }
+.sameBox {
+    height:120px;
+    width:120px;
+    background-color: maroon;
+}
+.box1:hover{
+    width: 240px;
+    transition: width 2s linear;
+    
+}
+.box2:hover{
+    height: 280px;
+    width: 240px;
+    transition: width 2s, height 4s ;
+    transition-timing-function: linear;
+    
 }
 
-.box2 {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(75, 18, 37);
-    animation: transform2 2s infinite ;
-    margin: 20px;
+.box3:hover{
+    width: 300px;
+    transition: width 4s linear;
+    
 }
-
-@keyframes transform2 {
-  0% {
-    transform: skewY(20deg);
-  }
-  50% {
-    transform: skewY(-20deg);
-  }
-  100% {
-    transform: skewY(20deg);
-  }
+.back{
+    font-size: 40px;
+    color: rgb(145, 11, 133);
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
-
-.box3 {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(128, 89, 102);
-    animation: transform3 2s infinite ;
-    margin: 20px;
-}
-
-@keyframes transform3 {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.box4 {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(36, 57, 21);
-    animation: scale1 2s infinite ;
-    margin: 20px;
-}
-
-@keyframes scale1 {
-  0% {
-    transform: scaleY(1.0);
-  }
-  50% {
-    transform: scaleY(0.5);
-  }
-  100%{
-    transform: scaleY(1.0);
-  }
-}
-
-.box5 {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(46, 24, 19);
-    animation: scale2 2s infinite ;
-    margin: 20px;
-}
-@keyframes scale2 {
-  0% {
-    transform:  scaleX(1.0);
-  }
-  50% {
-    transform: scaleX(0.5);
-  }
-  100%{
-    transform: scaleX(1.0);
-  }
-}
-
-.box6 {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(55, 48, 73);
-    animation: scale3 2s infinite ;
-    margin: 20px;
-}
-@keyframes scale3 {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(90deg);
-  }
-  100%{
-    transform: rotate(0deg);
-  }
-}
-
-a{
-  font-size: 30px;
-  margin-left: 12%;
+.next{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
