@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url(sky.jpg);
+  background-size: cover;
+  height: 445px;
+  width: 100%;
+}
+.p {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  gap: 10px;
+  font-weight: bold;
+}
+
+#p1 {
+  background-color: orange;
+  margin-top: 40px;
+}
+#p2 {
+  background-color: #fff;
+  margin-top: 40px;
+}
+#p3 {
+  background-color: green;
+  margin-top: 40px;
+}
+
+.sun{
+    height: 100px;
+    transition: linear 5s step-end;
+    position: relative;
+    animation-name: sun;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    left: 1050px;
+    margin-top: 20px;
+}
+
+@keyframes sun{
+    0%{
+        right: 0%;
+    }
+    100%{
+        left: -100%;
+    }
+}
