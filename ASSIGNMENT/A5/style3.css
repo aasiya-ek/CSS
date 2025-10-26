@@ -33,7 +33,6 @@
 
 .sun{
     height: 100px;
-    transition: linear 5s step-end;
     position: relative;
     animation-name: sun;
     animation-duration: 40s;
@@ -50,4 +49,32 @@
     100%{
         left: -100%;
     }
+}
+.city{
+    background-image: url(city.png);
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 27%;
+}
+.flag{
+    height: 70px;
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+    margin-left: 580px;
+}
+.cars{
+    position: relative;
+    bottom: 250px;
+}
+.wheel-1 {
+    height: 57px;
+    margin-left: 150px;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    
 }
