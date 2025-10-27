@@ -78,3 +78,12 @@
     position: relative;
     
 }
+.wheel-2{
+  height: 57px;
+    margin-left: 150px;
+    animation-name: wheel2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
