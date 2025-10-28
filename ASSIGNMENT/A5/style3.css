@@ -31,66 +31,71 @@
   margin-top: 40px;
 }
 
-.sun{
-    height: 100px;
-    position: relative;
-    animation-name: sun;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    left: 1050px;
-    margin-top: 20px;
+.sun {
+  height: 100px;
+  position: relative;
+  animation-name: sun;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  left: 1050px;
+  margin-top: 20px;
 }
 
-@keyframes sun{
-    0%{
-        right: 0%;
-    }
-    100%{
-        left: -100%;
-    }
+@keyframes sun {
+  0% {
+    right: 0%;
+  }
+  100% {
+    left: -100%;
+  }
 }
-.city{
-    background-image: url(city.png);
-    height: 250px;
-    width: 100%;
-    position: absolute;
-    top: 27%;
+.city {
+  background-image: url(city.png);
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  top: 27%;
 }
-.flag{
-    height: 70px;
-    position: relative;
-    z-index: 1;
-    bottom: 70px;
-    margin-left: 580px;
+.flag {
+  height: 70px;
+  position: relative;
+  z-index: 1;
+  bottom: 70px;
+  margin-left: 580px;
 }
-.cars{
-    position: relative;
-    bottom: 250px;
+.cars {
+  position: relative;
+  bottom: 250px;
 }
 .wheel-1 {
-    height: 57px;
-    margin-left: 150px;
-    animation-name: wheel;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    position: relative;
-    
+  height: 67px;
+  margin-left: 150px;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
 }
-.wheel-2{
-  height: 57px;
-    margin-left: 150px;
-    animation-name: wheel;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    position: relative;
-    z-index: 1;
+.wheel-2 {
+  height: 67px;
+  margin-left: 150px;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  z-index: 1;
+  /* left: ; */
 }
 
-@keyframes{
-
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .main {
