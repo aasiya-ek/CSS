@@ -81,9 +81,19 @@
 .wheel-2{
   height: 57px;
     margin-left: 150px;
-    animation-name: wheel2;
+    animation-name: wheel;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: relative;
+    z-index: 1;
+}
+
+@keyframes{
+
+}
+
+.main {
+  background-image: url(./road.jpg);
+  height: 310px;
 }
