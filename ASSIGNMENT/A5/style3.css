@@ -113,10 +113,28 @@
 
 .main{
   background-image: url(./road.jpg);
-  background-repeat: repeat;
+}
+.main2 {
+  background-image: url(./road.jpg);
+  background-repeat: repeat-x;
   background-size: cover;
+  background-position: 0 0;
+  width: 100%;
+  height: 270px;
   animation-name: road;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  position: absolute;
+  bottom: 0;
+  
+}
+
+@keyframes road{
+  0%{
+    right: 0%;
+  }
+  100%{
+    right: 100%;
+  }
 }
