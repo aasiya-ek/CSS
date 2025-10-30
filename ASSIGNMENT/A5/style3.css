@@ -61,8 +61,9 @@
   height: 70px;
   position: relative;
   z-index: 1;
-  bottom: 70px;
-  margin-left: 580px;
+  bottom: 41px;
+  margin-left: 700px;
+
 }
 .cars {
   position: relative;
@@ -70,12 +71,15 @@
 }
 .wheel-1 {
   height: 67px;
-  margin-left: 150px;
+  margin-left: 250px;
   animation-name: wheel;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position: relative;
+  top: 220px;
+  left: 220px;
+  z-index: 1;
 }
 .wheel-2 {
   height: 67px;
@@ -86,7 +90,8 @@
   animation-timing-function: linear;
   position: relative;
   z-index: 1;
-  /* left: ; */
+  left: 212px;
+  top: 220px;
 }
 
 @keyframes wheel {
@@ -98,7 +103,20 @@
   }
 }
 
-.main {
+.car{
+  height: 145px;
+  margin-left: 442px;
+  position: relative;
+  z-index: 1;
+  top: 70px;
+}
+
+.main{
   background-image: url(./road.jpg);
-  height: 310px;
+  background-repeat: repeat;
+  background-size: cover;
+  animation-name: road;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
