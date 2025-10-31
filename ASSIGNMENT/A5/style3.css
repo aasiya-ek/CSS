@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .header {
   background-image: url(sky.jpg);
@@ -51,7 +52,7 @@
   }
 }
 .city {
-  background-image: url(city.png);
+  background-image: url(./city.png);
   height: 250px;
   width: 100%;
   position: absolute;
@@ -63,7 +64,6 @@
   z-index: 1;
   bottom: 95px;
   margin-left: 600px;
-
 }
 .cars {
   position: relative;
@@ -103,14 +103,13 @@
   }
 }
 
-.car{
+.car {
   height: 140px;
   margin-left: 342px;
   position: relative;
   z-index: 1;
   top: 16px;
 }
-
 
 .main2 {
   background-image: url(./road.jpg);
@@ -125,14 +124,13 @@
   animation-timing-function: linear;
   position: absolute;
   bottom: 0;
-  
 }
 
-@keyframes road{
-  0%{
+@keyframes road {
+  0% {
     background-position: 0 0;
   }
-  100%{
+  100% {
     background-position: -1000px 0;
   }
 }
