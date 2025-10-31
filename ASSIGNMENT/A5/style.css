@@ -1,6 +1,9 @@
 body {
-  background-color: rgb(182, 130, 104);
-  margin-left: 42%;
+  background-color: rgb(225, 191, 171);
+  margin-left: 35%;
+}
+h1 {
+  margin-left: 120px;
 }
 .section-1 {
   display: flex;
@@ -9,13 +12,22 @@ body {
 .box1 {
   height: 100px;
   width: 100px;
-  background-color: rgb(106, 48, 48);
+  background-color: rgb(113, 68, 68);
   margin-bottom: 50px;
+  margin-left: 20px;
+  animation: change1 4s infinite linear;
 }
 
-.box1:hover {
-  width: 240px;
-  transition: width 2s linear;
+@keyframes change1 {
+  0% {
+    transform: skewX(30deg);
+  }
+  50% {
+    transform: skewX(-30deg);
+  }
+  100% {
+    transform: skewX(30deg);
+  }
 }
 
 .box2 {
@@ -23,12 +35,20 @@ body {
   width: 100px;
   background-color: rgb(68, 10, 10);
   margin-bottom: 50px;
+  margin-left: 20px;
+  animation: change2 4s infinite linear;
 }
-.box2:hover {
-  height: 280px;
-  width: 240px;
-  transition: width 2s, height 4s;
-  transition-timing-function: linear;
+
+@keyframes change2 {
+  0% {
+    transform: skewY(30deg);
+  }
+  50% {
+    transform: skewY(-30deg);
+  }
+  100% {
+    transform: skewY(30deg);
+  }
 }
 
 .box3 {
@@ -36,28 +56,83 @@ body {
   width: 100px;
   background-color: rgb(46, 33, 37);
   margin-bottom: 50px;
+  margin-left: 20px;
+  animation: change3 3s infinite linear;
 }
-.box3:hover {
-  width: 300px;
-  transition: width 4s linear;
+@keyframes change3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .box4 {
   height: 100px;
   width: 100px;
-  background-color: rgb(33, 38, 46);
-  margin-bottom: 50px;
+  background-color: rgb(200, 183, 30);
+  margin-bottom: 30px;
+  margin-left: 20px;
+  animation: scale1 4s infinite linear;
+}
+@keyframes scale1 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .box5 {
   height: 100px;
   width: 100px;
   background-color: rgb(105, 25, 49);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  animation: scale2 4s infinite linear;
+}
+
+@keyframes scale2 {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 .box6 {
   height: 100px;
   width: 100px;
   background-color: rgb(49, 77, 7);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  animation: scale3 4s infinite linear;
+}
+
+@keyframes scale3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+a {
+  margin-left: 70px;
+  font-size: 30px;
 }
