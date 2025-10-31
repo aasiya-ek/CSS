@@ -28,3 +28,18 @@ body{
     width: 250px;
     transition: 1s;
 }
+
+.back {
+  font-size: 40px;
+  color: rgb(145, 11, 133);
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+.next {
+  font-size: 40px;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
